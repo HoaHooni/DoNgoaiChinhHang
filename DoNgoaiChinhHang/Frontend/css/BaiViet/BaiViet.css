@@ -1,0 +1,26 @@
+﻿.pageName{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+.title-post {
+    margin-bottom: 10px;
+}
+
+    .title-post a {
+        color: #288AD6;
+        font-weight: 700;
+    }
+.item-post{
+    height: 160px;
+}
+
+.imgPost {
+    border-radius: 5px;
+    margin-right: 15px;
+    border: solid 1px #ddd;
+    box-shadow: 1px 1px 2px 0 #666;
+    background-color: #fff;
+    padding: 5px;
+}

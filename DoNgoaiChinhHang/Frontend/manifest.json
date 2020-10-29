@@ -1,0 +1,22 @@
+{
+  "name": "dongoaichinhhang.com",
+  "short_name": "dongoaichinhhang.com",
+  "description": "dongoaichinhhang.com Hàng Chính Hãng",
+  "lang": "vi-VN",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#fbcb8d",
+  "icons": [
+    {
+      "src": "/Frontend/images/logo-dongoaichinhhang192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo-dongoaichinhhang512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#f5f8fa"
+}

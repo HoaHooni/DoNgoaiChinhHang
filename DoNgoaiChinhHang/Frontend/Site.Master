@@ -1,0 +1,583 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DoNgoaiChinhHang.Frontend.Site" %>
+
+<!DOCTYPE html>
+<html lang="vi" xml:lang="vi">
+
+<head>
+    <title>Đồ Ngoại Chính Hãng</title>
+    <meta name="keywords" content="Chính sách mua hàng tại Đồ Ngoại Chính Hãng,chinh sach hang chinh hang" />
+    <meta name="description" content="Tại dongoaichinhhang.com luôn cam kết 100% mua Đồ Ngoại Chính Hãng, uy tín từ các nhà sản xuất và phân phối lớn trong và ngoài nước, với đội ngủ xử lý chuyên nghiệp và tận tâm, chúng tôi luôn đặt tiêu chí Hàng chất lượng và xuất xứ rõ ràng nhất 🌐  dongoaichinhhang.com   - ☎ 0983 667 466" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow, noodp, noydir" />
+    <meta name="copyright" content="dongoaichinhhang.com - Hàng Chính Hãng" />
+    <meta name="author" content="dongoaichinhhang.com - Hàng Chính Hãng" />
+    <meta name="GENERATOR" content="dongoaichinhhang.com - Hàng Chính Hãng" />
+    <meta http-equiv="audience" content="General" />
+    <meta name="resource-type" content="Document" />
+    <meta name="distribution" content="Global" />
+    <meta name="revisit-after" content="1 days" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta property="og:site_name" content="dongoaichinhhang.com" />
+    <meta property="og:type" content="product" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:url" itemprop="url" content="https://dongoaichinhhang.com/lk/chinh-sach-hang-chinh-hang.html" />
+    <meta property="og:title" content="Đồ Ngoại Chính Hãng" />
+    <meta property="og:description" content="Tại dongoaichinhhang.com luôn cam kết 100% mua Đồ Ngoại Chính Hãng, uy tín từ các nhà sản xuất và phân phối lớn trong và ngoài nước, với đội ngủ xử lý chuyên nghiệp và tận tâm, chúng tôi luôn đặt tiêu chí Hàng chất lượng và xuất xứ rõ ràng nhất 🌐  dongoaichinhhang.com   - ☎ 0983 667 466" />
+    <meta name="geo.placename" content="Việt Nam" />
+    <meta name="geo.region" content="VN" />
+    <meta name="geo.position" content="14.058324;108.277199" />
+    <meta name="ICBM" content="14.058324;108.277199" />
+    <link href="/Frontend/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="canonical" href="https://dongoaichinhhang.com/lk/chinh-sach-hang-chinh-hang.html" />
+    <link rel="stylesheet" href="../../css/cart.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../css/menu.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../css/styles4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../css/owl-carousel.css" type="text/css" media="screen" />
+    <meta name="theme-color" content="#ff0000" />
+    <script src="../../js/common.js"></script>
+    <link rel="manifest" href="../../manifest.json" />
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw4.js').then(function (registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope)
+                }).catch(function (err) {
+                    console.log('ServiceWorker registration failed: ', err)
+                })
+            })
+        }
+    </script>
+    <link rel="stylesheet" href="../../css/libs/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../css/category.css" type="text/css" media="screen" />
+    <link href="../../../Plugin/fontawesome/css/all.min.css" rel="stylesheet" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-833009878"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-833009878');
+    </script>
+    <script>
+        gtag('event', 'page_view', {
+            'send_to': 'AW-833009878',
+            'user_id': '',
+            'value': '',
+            'items': [{
+                'id': '',
+                'google_business_vertical': 'retail'
+            }]
+        });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137604948-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-137604948-1');
+    </script>
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '299092611415381');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=299092611415381&ev=PageView&noscript=1" /></noscript>
+</head>
+
+<body>
+    <div id="wrapper_content_page">
+        <header>
+            <div class="out-wraphead clr">
+                <div class="wraphead">
+                    <a class="icon-menu navbar-toggle" id="mobileMenu" data-toggle="collapse"><span class="icon-bar first"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+                    <div class="main-navigation">
+                        <div class="mainbox">
+                            <div class="mainmenu">
+                                <div class="line"><i></i><i></i><i></i><i></i></div>
+                                <span></span>
+                                <nav class="menu">
+                                    <ul class="list-cat-icon">
+                                        <li class="has-cat-mega" data-submenu-id="submenu-97">
+                                            <h4>
+                                                <img src="../../imgs/my-pham-dac-tri-chinh-hang-1.png" alt="Mỹ phẩm Đặc Trị" />
+                                                <a href="/danh-muc/my-pham-dac-tri.html" title="Mỹ phẩm Đặc Trị">Mỹ phẩm Đặc Trị</a></h4>
+                                            <div id="submenu-97" class="cat-mega-menu cat-mega-style1">
+                                                <div class="banner-img"><a href="/danh-muc/my-pham-dac-tri.html" title="Mỹ phẩm Đặc Trị">
+                                                    <img data-src="../../imgs/my-pham-dac-tri-2.jpg" alt="Mỹ phẩm Đặc Trị" class="lazy" /></a></div>
+                                                <aside><strong class="hmb"><a href="/danh-muc/my-pham-dac-tri.html" title="Mỹ phẩm Đặc Trị">Mỹ phẩm Đặc Trị</a></strong> <a href="/danh-muc/dieu-tri-mun-da-mun.html" title="Điều trị mụn - da mụn - tái tạo Da">Điều trị mụn - da mụn - tái tạo Da</a>                                                    <a href="/danh-muc/dieu-tri-nam-da-tan-nhang-vet-tham.html" title="Điều trị Nám Da, Tàn Nhang, Vết Thâm">Điều trị Nám Da, Tàn Nhang, Vết Thâm</a> <a href="/danh-muc/giam-can-tan-mo-bung.html" title="Giảm cân - Tan mỡ bụng">Giảm cân - Tan mỡ bụng</a>                                                    <a href="/danh-muc/dieu-tri-rung-toc-hoi-dau.html" title="Điều trị rụng tóc, hói đầu">Điều trị rụng tóc, hói đầu</a> <a href="/danh-muc/tri-hoi-mieng-nach-chan-tay-toan-than.html" title="Trị Hôi Miệng, Nách, Chân, Tay, Trắng Răng">Trị Hôi Miệng, Nách, Chân, Tay, Trắng Răng</a>                                                    <a href="/danh-muc/dieu-tri-co-xuong-khop.html" title="Điều Trị Cơ - Xương - Khớp">Điều Trị Cơ - Xương - Khớp</a> <a href="/danh-muc/dieu-tri-benh-ngoai-da-nam-da.html" title="Điều Trị Bệnh Ngoài Da, Nấm Da">Điều Trị Bệnh Ngoài Da, Nấm Da</a>                                                    <a href="/danh-muc/tri-viem-xoang-viem-mui-di-ung.html" title="Trị Viêm Xoang, viêm mũi dị ứng">Trị Viêm Xoang, viêm mũi dị ứng</a> <a href="/danh-muc/dieu-tri-seo-loi-lom-seo-lau-nam.html" title="Điều trị Sẹo Lồi - Lõm - Rạn Da">Điều trị Sẹo Lồi - Lõm - Rạn Da</a></aside>
+                                            </div>
+                                        </li>
+                                        <li class="has-cat-mega" data-submenu-id="submenu-164">
+                                            <h4>
+                                                <img src="../../imgs/thuc-pham-chuc-nang-1.png" alt="Thực phẩm Chức Năng" />
+                                                <a href="/danh-muc/thuc-pham-chuc-nang.html" title="Thực phẩm Chức Năng">Thực phẩm Chức Năng</a></h4>
+                                            <div id="submenu-164" class="cat-mega-menu cat-mega-style1">
+                                                <div class="banner-img"><a href="/danh-muc/thuc-pham-chuc-nang.html" title="Thực phẩm Chức Năng">
+                                                    <img data-src="../../imgs/suc-khoe-dinh-duong-2.jpg" alt="Thực phẩm Chức Năng" class="lazy" /></a></div>
+                                                <aside>
+                                                    <strong class="hmb"><a href="/danh-muc/thuc-pham-chuc-nang.html" title="Thực phẩm Chức Năng">Thực phẩm Chức Năng</a></strong> <a href="/danh-muc/collagen.html" title="Collagen">Collagen</a> <a href="/danh-muc/tieu-duong.html"
+                                                        title="Tiểu đường">Tiểu đường</a> <a href="/danh-muc/tieu-hoa-tri-da-day-dai-trang.html" title="Tiêu hóa - Trị Dạ Dày - Đại Tràng">Tiêu hóa - Trị Dạ Dày - Đại Tràng</a> <a href="/danh-muc/bo-phoi.html"
+                                                            title=" Bổ phổi">Bổ phổi</a> <a href="/danh-muc/sua-dinh-duong.html" title="Sữa dinh dưỡng">Sữa dinh dưỡng</a> <a href="/danh-muc/ho-tro-ngu-ngon.html" title="Hỗ trợ ngủ ngon">Hỗ trợ ngủ ngon</a>
+                                                    <a
+                                                        href="/danh-muc/cai-thuoc-la.html" title="Cai thuốc lá">Cai thuốc lá</a> <a href="/danh-muc/chong-lao-hoa-da-dep-da-trang-da.html" title="Chống lão hóa Da, Đẹp Da, Trắng Da">Chống lão hóa Da, Đẹp Da, Trắng Da</a> <a href="/danh-muc/tri-dau-nhuc.html" title="Trị đau nhức">Trị đau nhức</a>                                                        <a href="/danh-muc/bo-mat.html" title="Bổ mắt">Bổ mắt</a> <a href="/danh-muc/ho-tro-tim-mach.html" title="Hỗ trợ tim mạch">Hỗ trợ tim mạch</a> <a href="/danh-muc/thuoc-tang-can-chinh-hang.html" title="Thuốc Tăng Cân Chính Hãng">Thuốc Tăng Cân Chính Hãng</a>                                                        <a href="/danh-muc/dieu-tri-tai-bien-dot-quy.html" title="Điều trị Tai Biến, Đột Quỵ">Điều trị Tai Biến, Đột Quỵ</a> <a href="/danh-muc/tang-chieu-cao.html" title="Tăng Chiều Cao">Tăng Chiều Cao</a>                                                        <a href="/danh-muc/no-nguc.html" title="Nở ngực">Nở ngực</a> <a href="/danh-muc/tao-bien-tao-mat-troi.html" title="Tảo Biển - Tảo mặt trời">Tảo Biển - Tảo mặt trời</a> <a href="/danh-muc/bo-sung-vitamin.html"
+                                                            title="Bổ sung Vitamin">Bổ sung Vitamin</a> <a href="/danh-muc/thuoc-bo-gan-than-tang-sinh-ly.html" title="Thuốc bổ Gan, Thận, Tăng Sinh Lý">Thuốc bổ Gan, Thận, Tăng Sinh Lý</a> <a href="/danh-muc/xuong-khop-thoai-hoa-cot-song.html"
+                                                                title="Xương khớp, Thoái hóa Cột Sống Canxi">Xương khớp, Thoái hóa Cột Sống Canxi</a> <a href="/danh-muc/bo-nao-tang-cuong-tri-nho.html" title="Bổ Não, Tăng cường Trí Nhớ">Bổ Não, Tăng cường Trí Nhớ</a>                                                        <a href="/danh-muc/tang-cuong-sinh-ly.html" title="Tăng cường Sinh Lý">Tăng cường Sinh Lý</a> <a href="/danh-muc/sua-ong-chua.html" title="Sữa Ong Chúa">Sữa Ong Chúa</a> <a href="/danh-muc/giam-can-giam-mo-bung.html"
+                                                                    title="Giảm Cân - Giảm mỡ bụng">Giảm Cân - Giảm mỡ bụng</a>
+                                                </aside>
+                                            </div>
+                                        </li>
+                                        <li class="has-cat-mega" data-submenu-id="submenu-98">
+                                            <h4>
+                                                <img src="../../imgs/cham-soc-da-mat-1.png" alt="Mỹ phẩm Chăm sóc Da" />
+                                                <a href="/danh-muc/my-pham-cham-soc-da.html" title="Mỹ phẩm Chăm sóc Da">Mỹ phẩm Chăm sóc Da</a></h4>
+                                            <div id="submenu-98" class="cat-mega-menu cat-mega-style1">
+                                                <div class="banner-img"><a href="/danh-muc/my-pham-cham-soc-da.html" title="Mỹ phẩm Chăm sóc Da">
+                                                    <img data-src="../../imgs/cham-soc-duong-da-mat-2.jpg" alt="Mỹ phẩm Chăm sóc Da" class="lazy" /></a></div>
+                                                <aside>
+                                                    <strong class="hmb"><a href="/danh-muc/my-pham-cham-soc-da.html" title="Mỹ phẩm Chăm sóc Da">Mỹ phẩm Chăm sóc Da</a></strong> <a href="/danh-muc/tay-trang.html" title="Tẩy Trang">Tẩy Trang</a> <a href="/danh-muc/che-khuyet-diem.html"
+                                                        title="Che Khuyết Điểm">Che Khuyết Điểm</a> <a href="/danh-muc/son-moi.html" title="Son Môi">Son Môi</a> <a href="/danh-muc/kem-chong-nang.html" title="Kem Chống Nắng">Kem Chống Nắng</a> <a href="/danh-muc/cham-soc-body.html"
+                                                            title="Chăm sóc Body">Chăm sóc Body</a> <a href="/danh-muc/duong-trang-da-mat.html" title="Dưỡng trắng Da">Dưỡng trắng Da</a> <a href="/danh-muc/chong-lao-hoa-da-mat.html" title="Chống lão hóa Da">Chống lão hóa Da</a>                                                    <a href="/danh-muc/mat-na-duong-da.html" title="Mặt nạ dưỡng da">Mặt nạ dưỡng da</a> <a href="/danh-muc/sua-rua-mat.html" title="Sữa rửa mặt">Sữa rửa mặt</a> <a href="/danh-muc/tay-te-bao-chet.html"
+                                                                title="Tẩy tế bào chết">Tẩy tế bào chết</a>
+                                                </aside>
+                                            </div>
+                                        </li>
+                                        <li class="has-cat-mega" data-submenu-id="submenu-100">
+                                            <h4>
+                                                <img src="../../imgs/cham-soc-toc-da-dau-1.png" alt="Thuốc mọc Tóc, Râu, Mi, Mày" />
+                                                <a href="/danh-muc/cham-soc-toc-rau-mi-long-may.html" title="Thuốc mọc Tóc, Râu, Mi, Mày">Thuốc mọc Tóc, Râu, Mi, Mày</a></h4>
+                                            <div
+                                                id="submenu-100" class="cat-mega-menu cat-mega-style1">
+                                                <div class="banner-img"><a href="/danh-muc/cham-soc-toc-rau-mi-long-may.html" title="Thuốc mọc Tóc, Râu, Mi, Mày">
+                                                    <img data-src="../../imgs/cham-soc-toc-rau-mi-long-may-2.jpg" alt="Thuốc mọc Tóc, Râu, Mi, Mày" class="lazy" /></a></div>
+                                                <aside>
+                                                    <strong class="hmb"><a href="/danh-muc/cham-soc-toc-rau-mi-long-may.html" title="Thuốc mọc Tóc, Râu, Mi, Mày">Thuốc mọc Tóc, Râu, Mi, Mày</a></strong> <a href="/danh-muc/thuoc-moc-long-vung-kin.html" title="Thuốc mọc lông vùng kín">Thuốc mọc lông vùng kín</a>                                                    <a href="/danh-muc/thuoc-tri-rung-toc-kich-thich-moc-toc.html" title="Thuốc trị rụng tóc, kích thích mọc tóc">Thuốc trị rụng tóc, kích thích mọc tóc</a> <a href="/danh-muc/dau-goi-va-dau-xa-kich-thich-moc-toc.html"
+                                                        title="Dầu Gội và Dầu Xả kích thích mọc Tóc">Dầu Gội và Dầu Xả kích thích mọc Tóc</a> <a href="/danh-muc/dau-goi-tri-rung-toc.html" title="Dầu gội trị rụng tóc">Dầu gội trị rụng tóc</a> <a href="/danh-muc/thuoc-kich-thich-moc-rau.html"
+                                                            title="Thuốc kích thích mọc Râu">Thuốc kích thích mọc Râu</a> <a href="/danh-muc/duong-mi-kich-thich-moc-long-mi.html" title="Dưỡng Mi, kích thích mọc long Mi">Dưỡng Mi, kích thích mọc long Mi</a>
+                                                    <a
+                                                        href="/danh-muc/kich-thich-moc-long-may.html" title="Kích thích mọc long Mày">Kích thích mọc long Mày</a>
+                                                </aside>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                <img src="../../imgs/cham-soc-co-the-va-toan-than-1.png" alt="Tăng cường Sinh lý Nam Nữ" />
+                                                <a href="/danh-muc/tang-cuong-sinh-ly-nam-nu.html" title="Tăng cường Sinh lý Nam Nữ">Tăng cường Sinh lý Nam Nữ</a></h4>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                <img src="../../imgs/my-pham-trang-diem-moi-ngay-1.png" alt="Nước hoa Chính hãng" />
+                                                <a href="/danh-muc/nuoc-hoa-chinh-hang.html" title="Nước hoa Chính hãng">Nước hoa Chính hãng</a></h4>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                <img src="../../imgs/san-pham-khuyen-mai-hot-1.png" alt="Collagen Đẹp Da" />
+                                                <a href="/danh-muc/collagen-dep-da.html" title="Collagen Đẹp Da">Collagen Đẹp Da</a></h4>
+                                        </li>
+                                        <li class="has-cat-mega" data-submenu-id="submenu-170">
+                                            <h4>
+                                                <img src="../../imgs/thuong-hieu-hang-dau-1.png" alt="Thương hiệu hàng đầu" />
+                                                <a href="/danh-muc/thuong-hieu-hang-dau.html" title="Thương hiệu hàng đầu">Thương hiệu hàng đầu</a></h4>
+                                            <div id="submenu-170" class="cat-mega-menu cat-mega-style1">
+                                                <div class="banner-img"><a href="/danh-muc/thuong-hieu-hang-dau.html" title="Thương hiệu hàng đầu">
+                                                    <img data-src="../../imgs/thuong-hieu-hang-dau-2.jpg" alt="Thương hiệu hàng đầu" class="lazy" /></a></div>
+                                                <aside>
+                                                    <strong class="hmb"><a href="/danh-muc/thuong-hieu-hang-dau.html" title="Thương hiệu hàng đầu">Thương hiệu hàng đầu</a></strong> <a href="/danh-muc/chinh-hang-malaysia.html" title="Chính hãng Malaysia">Chính hãng Malaysia</a>                                        <a href="/danh-muc/chinh-hang-tay-ban-nha.html" title="Chính hãng Tây Ban Nha">Chính hãng Tây Ban Nha</a> <a href="/danh-muc/chinh-hang-my.html" title="Chính hãng Mỹ">Chính hãng Mỹ</a> <a href="/danh-muc/chinh-hang-nhat.html"
+                                                        title="Chính hãng Nhật Bản">Chính hãng Nhật Bản</a> <a href="/danh-muc/chinh-hang-uc.html" title="Chính hãng Úc">Chính hãng Úc</a> <a href="/danh-muc/chinh-hang-anh.html" title="Chính hãng Anh">Chính hãng Anh</a>                                        <a href="/danh-muc/chinh-hang-han-quoc.html" title="Chính hãng Hàn Quốc">Chính hãng Hàn Quốc</a> <a href="/danh-muc/chinh-hang-nga.html" title="Chính hãng Nga">Chính hãng Nga</a> <a href="/danh-muc/chinh-hang-phap.html"
+                                                            title="Chính hãng Pháp">Chính hãng Pháp</a> <a href="/danh-muc/chinh-hang-an-do.html" title="Chính hãng Ấn Độ">Chính hãng Ấn Độ</a> <a href="/danh-muc/chinh-hang-thai-lan.html" title="Chính hãng Thái Lan">Chính hãng Thái Lan</a>                                        <a href="/danh-muc/thuong-hieu-orihiro.html" title="Thương hiệu Orihiro">Thương hiệu Orihiro</a> <a href="/danh-muc/thuong-hieu-dhc.html" title="Thương hiệu DHC">Thương hiệu DHC</a> <a href="/danh-muc/thuong-hieu-transino.html"
+                                                                title="Thương hiệu Transino">Thương hiệu Transino</a> <a href="/danh-muc/thuong-hieu-shiseido.html" title="Thương hiệu Shiseido">Thương hiệu Shiseido</a> <a href="/danh-muc/thuong-hieu-kirkland.html" title="Thương hiệu KirkLand">Thương hiệu KirkLand</a>                                        <a href="/danh-muc/thuong-hieu-kaminomoto.html" title="Thương hiệu Kaminomoto">Thương hiệu Kaminomoto</a> <a href="/danh-muc/thuong-hieu-bifina.html" title="Thương hiệu Bifina">Thương hiệu Bifina</a> <a href="/danh-muc/thuong-hieu-goodhealth.html"
+                                                                    title="Thương hiệu Goodhealth">Thương hiệu Goodhealth</a> <a href="/danh-muc/thuong-hieu-scar-heal.html" title="Thương hiệu Scar Heal">Thương hiệu Scar Heal</a> <a href="/danh-muc/thuong-hieu-nature-made.html" title="Thương hiệu Nature Made">Thương hiệu Nature Made</a>                                        <a href="/danh-muc/thuong-hieu-costar.html" title="Thương hiệu Costar">Thương hiệu Costar</a> <a href="/danh-muc/thuong-hieu-healthy-care.html" title="Thương hiệu Healthy Care">Thương hiệu Healthy Care</a> <a href="/danh-muc/thuong-hieu-neocell.html"
+                                                                        title="Thương hiệu Neocell">Thương hiệu Neocell</a> <a href="/danh-muc/thuong-hieu-youtheory.html" title="Thương hiệu Youtheory">Thương hiệu Youtheory</a> <a href="/danh-muc/thuong-hieu-innisfree.html" title="Thương hiệu Innisfree">Thương hiệu Innisfree</a>                                        <a href="/danh-muc/thuong-hieu-blackmores-uc.html" title="Thương hiệu Blackmores Úc">Thương hiệu Blackmores Úc</a> <a href="/danh-muc/thuong-hieu-natrol-biotin.html" title="Thương hiệu Natrol Biotin">Thương hiệu Natrol Biotin</a>                                        <a href="/danh-muc/thuong-hieu-khac.html" title="Thương hiệu khác">Thương hiệu khác</a>
+                                                </aside>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="logo" title="dongoaichinhhang.com" href="/">
+                        <img src="../../images/dongoaichinhhang.png" alt="dongoaichinhhang.com" /></a><img id="sSrch" class="sSrch" src="../../images/iSearch.png" alt="search" />
+                    <form id="main-search" autocomplete="off"
+                        action="/tim-kiem.html">
+                        <input class="topinput" type="text" maxlength="100" placeholder="Tìm sản phẩm..." id="keySearch" name="tk" autocomplete="off" />
+                        <button class="btntop" type="submit"><i class="icondmx-topsearch"></i></button>
+                    </form>
+                    <div id="cart-box">
+                        <a href="/gio-hang.html" class="cart hidecb"><i class="icart"></i><span id="cbCount">0</span> </a>
+                        <aside id="core-brain">
+                            <div class="panel">
+                                <div id="cb-cart">
+                                    <div class="body between">
+                                        <div class="product-list ps-container ps-theme-default" id="list-cart"></div>
+                                        <div class="pull-bottom ">
+                                            <div class="cart-url">
+                                                <p>Bạn có <strong id="cb-cart-badge">0</strong> sản phẩm trong giỏ hàng</p>
+                                                <a href="/gio-hang.html">Xem giỏ hàng</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clr"></div>
+                        </aside>
+                    </div>
+                    <div class="switchboard hmb"><a href="tel:0983667466">0983 667 466<span>Tư vấn Miễn Phí</span></a></div>
+                </div>
+            </div>
+        </header>
+        <section class="mtsl clr">
+            <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://dongoaichinhhang.com/",
+                        "name": "Trang chủ",
+                        "image": "https://dongoaichinhhang.com/images/logo-dongoaichinhhang1000x500.png"
+                    }
+                }, {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://dongoaichinhhang.com/tin-tuc/chinh-sach-hang-chinh-hang.html",
+                        "name": "Chính sách Đồ Ngoại Chính Hãng"
+                    }
+                }]
+            }
+        </script>
+            <div class="col-left" style="background-color: #fff">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div class="col-right">
+                <div class="sidebar sidebar-right">
+                    <div class="widget widget-seller">
+                        <div class="widget widget-seller">
+                            <h4 class="seller_title radius">Danh mục sản phẩm</h4>
+                            <div class="widget-content">
+                                <ul class="category-ul-rght">
+                                    <li class="has-sub-cat"><a href="/danh-muc/my-pham-dac-tri.html" title="Mỹ phẩm Đặc Trị">Mỹ phẩm Đặc Trị</a>
+                                        <ul style="display: none">
+                                            <li><a href="danh-muc/dieu-tri-mun-da-mun.html" title="Điều trị mụn - da mụn - tái tạo Da">Điều trị mụn - da mụn - tái tạo Da</a></li>
+                                            <li><a href="danh-muc/dieu-tri-nam-da-tan-nhang-vet-tham.html" title="Điều trị Nám Da, Tàn Nhang, Vết Thâm">Điều trị Nám Da, Tàn Nhang, Vết Thâm</a></li>
+                                            <li><a href="danh-muc/giam-can-tan-mo-bung.html" title="Giảm cân - Tan mỡ bụng">Giảm cân - Tan mỡ bụng</a></li>
+                                            <li><a href="danh-muc/dieu-tri-rung-toc-hoi-dau.html" title="Điều trị rụng tóc, hói đầu">Điều trị rụng tóc, hói đầu</a></li>
+                                            <li><a href="danh-muc/tri-hoi-mieng-nach-chan-tay-toan-than.html" title="Trị Hôi Miệng, Nách, Chân, Tay, Trắng Răng">Trị Hôi Miệng, Nách, Chân, Tay, Trắng Răng</a></li>
+                                            <li><a href="danh-muc/dieu-tri-co-xuong-khop.html" title="Điều Trị Cơ - Xương - Khớp">Điều Trị Cơ - Xương - Khớp</a></li>
+                                            <li><a href="danh-muc/dieu-tri-benh-ngoai-da-nam-da.html" title="Điều Trị Bệnh Ngoài Da, Nấm Da">Điều Trị Bệnh Ngoài Da, Nấm Da</a></li>
+                                            <li><a href="danh-muc/tri-viem-xoang-viem-mui-di-ung.html" title="Trị Viêm Xoang, viêm mũi dị ứng">Trị Viêm Xoang, viêm mũi dị ứng</a></li>
+                                            <li><a href="danh-muc/dieu-tri-seo-loi-lom-seo-lau-nam.html" title="Điều trị Sẹo Lồi - Lõm - Rạn Da">Điều trị Sẹo Lồi - Lõm - Rạn Da</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-cat"><a href="/danh-muc/thuc-pham-chuc-nang.html" title="Thực phẩm Chức Năng">Thực phẩm Chức Năng</a>
+                                        <ul style="display: none">
+                                            <li><a href="danh-muc/collagen.html" title="Collagen">Collagen</a></li>
+                                            <li><a href="danh-muc/tieu-duong.html" title="Tiểu đường">Tiểu đường</a></li>
+                                            <li><a href="danh-muc/tieu-hoa-tri-da-day-dai-trang.html" title="Tiêu hóa - Trị Dạ Dày - Đại Tràng">Tiêu hóa - Trị Dạ Dày - Đại Tràng</a></li>
+                                            <li><a href="danh-muc/bo-phoi.html" title=" Bổ phổi">Bổ phổi</a></li>
+                                            <li><a href="danh-muc/sua-dinh-duong.html" title="Sữa dinh dưỡng">Sữa dinh dưỡng</a></li>
+                                            <li><a href="danh-muc/ho-tro-ngu-ngon.html" title="Hỗ trợ ngủ ngon">Hỗ trợ ngủ ngon</a></li>
+                                            <li><a href="danh-muc/cai-thuoc-la.html" title="Cai thuốc lá">Cai thuốc lá</a></li>
+                                            <li><a href="danh-muc/chong-lao-hoa-da-dep-da-trang-da.html" title="Chống lão hóa Da, Đẹp Da, Trắng Da">Chống lão hóa Da, Đẹp Da, Trắng Da</a></li>
+                                            <li><a href="danh-muc/tri-dau-nhuc.html" title="Trị đau nhức">Trị đau nhức</a></li>
+                                            <li><a href="danh-muc/bo-mat.html" title="Bổ mắt">Bổ mắt</a></li>
+                                            <li><a href="danh-muc/ho-tro-tim-mach.html" title="Hỗ trợ tim mạch">Hỗ trợ tim mạch</a></li>
+                                            <li><a href="danh-muc/thuoc-tang-can-chinh-hang.html" title="Thuốc Tăng Cân Chính Hãng">Thuốc Tăng Cân Chính Hãng</a></li>
+                                            <li><a href="danh-muc/dieu-tri-tai-bien-dot-quy.html" title="Điều trị Tai Biến, Đột Quỵ">Điều trị Tai Biến, Đột Quỵ</a></li>
+                                            <li><a href="danh-muc/tang-chieu-cao.html" title="Tăng Chiều Cao">Tăng Chiều Cao</a></li>
+                                            <li><a href="danh-muc/no-nguc.html" title="Nở ngực">Nở ngực</a></li>
+                                            <li><a href="danh-muc/tao-bien-tao-mat-troi.html" title="Tảo Biển - Tảo mặt trời">Tảo Biển - Tảo mặt trời</a></li>
+                                            <li><a href="danh-muc/bo-sung-vitamin.html" title="Bổ sung Vitamin">Bổ sung Vitamin</a></li>
+                                            <li><a href="danh-muc/thuoc-bo-gan-than-tang-sinh-ly.html" title="Thuốc bổ Gan, Thận, Tăng Sinh Lý">Thuốc bổ Gan, Thận, Tăng Sinh Lý</a></li>
+                                            <li><a href="danh-muc/xuong-khop-thoai-hoa-cot-song.html" title="Xương khớp, Thoái hóa Cột Sống Canxi">Xương khớp, Thoái hóa Cột Sống Canxi</a></li>
+                                            <li><a href="danh-muc/bo-nao-tang-cuong-tri-nho.html" title="Bổ Não, Tăng cường Trí Nhớ">Bổ Não, Tăng cường Trí Nhớ</a></li>
+                                            <li><a href="danh-muc/tang-cuong-sinh-ly.html" title="Tăng cường Sinh Lý">Tăng cường Sinh Lý</a></li>
+                                            <li><a href="danh-muc/sua-ong-chua.html" title="Sữa Ong Chúa">Sữa Ong Chúa</a></li>
+                                            <li><a href="danh-muc/giam-can-giam-mo-bung.html" title="Giảm Cân - Giảm mỡ bụng">Giảm Cân - Giảm mỡ bụng</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-cat"><a href="/danh-muc/my-pham-cham-soc-da.html" title="Mỹ phẩm Chăm sóc Da">Mỹ phẩm Chăm sóc Da</a>
+                                        <ul style="display: none">
+                                            <li><a href="danh-muc/tay-trang.html" title="Tẩy Trang">Tẩy Trang</a></li>
+                                            <li><a href="danh-muc/che-khuyet-diem.html" title="Che Khuyết Điểm">Che Khuyết Điểm</a></li>
+                                            <li><a href="danh-muc/son-moi.html" title="Son Môi">Son Môi</a></li>
+                                            <li><a href="danh-muc/kem-chong-nang.html" title="Kem Chống Nắng">Kem Chống Nắng</a></li>
+                                            <li><a href="danh-muc/cham-soc-body.html" title="Chăm sóc Body">Chăm sóc Body</a></li>
+                                            <li><a href="danh-muc/duong-trang-da-mat.html" title="Dưỡng trắng Da">Dưỡng trắng Da</a></li>
+                                            <li><a href="danh-muc/chong-lao-hoa-da-mat.html" title="Chống lão hóa Da">Chống lão hóa Da</a></li>
+                                            <li><a href="danh-muc/mat-na-duong-da.html" title="Mặt nạ dưỡng da">Mặt nạ dưỡng da</a></li>
+                                            <li><a href="danh-muc/sua-rua-mat.html" title="Sữa rửa mặt">Sữa rửa mặt</a></li>
+                                            <li><a href="danh-muc/tay-te-bao-chet.html" title="Tẩy tế bào chết">Tẩy tế bào chết</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-cat"><a href="/danh-muc/cham-soc-toc-rau-mi-long-may.html" title="Thuốc mọc Tóc, Râu, Mi, Mày">Thuốc mọc Tóc, Râu, Mi, Mày</a>
+                                        <ul style="display: none">
+                                            <li><a href="danh-muc/thuoc-moc-long-vung-kin.html" title="Thuốc mọc lông vùng kín">Thuốc mọc lông vùng kín</a></li>
+                                            <li><a href="danh-muc/thuoc-tri-rung-toc-kich-thich-moc-toc.html" title="Thuốc trị rụng tóc, kích thích mọc tóc">Thuốc trị rụng tóc, kích thích mọc tóc</a></li>
+                                            <li><a href="danh-muc/dau-goi-va-dau-xa-kich-thich-moc-toc.html" title="Dầu Gội và Dầu Xả kích thích mọc Tóc">Dầu Gội và Dầu Xả kích thích mọc Tóc</a></li>
+                                            <li><a href="danh-muc/dau-goi-tri-rung-toc.html" title="Dầu gội trị rụng tóc">Dầu gội trị rụng tóc</a></li>
+                                            <li><a href="danh-muc/thuoc-kich-thich-moc-rau.html" title="Thuốc kích thích mọc Râu">Thuốc kích thích mọc Râu</a></li>
+                                            <li><a href="danh-muc/duong-mi-kich-thich-moc-long-mi.html" title="Dưỡng Mi, kích thích mọc long Mi">Dưỡng Mi, kích thích mọc long Mi</a></li>
+                                            <li><a href="danh-muc/kich-thich-moc-long-may.html" title="Kích thích mọc long Mày">Kích thích mọc long Mày</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="danh-muc/tang-cuong-sinh-ly-nam-nu.html" title="Tăng cường Sinh lý Nam Nữ">Tăng cường Sinh lý Nam Nữ</a></li>
+                                    <li><a href="danh-muc/nuoc-hoa-chinh-hang.html" title="Nước hoa Chính hãng">Nước hoa Chính hãng</a></li>
+                                    <li><a href="danh-muc/collagen-dep-da.html" title="Collagen Đẹp Da">Collagen Đẹp Da</a></li>
+                                    <li class="has-sub-cat"><a href="/danh-muc/thuong-hieu-hang-dau.html" title="Thương hiệu hàng đầu">Thương hiệu hàng đầu</a>
+                                        <ul style="display: none">
+                                            <li><a href="danh-muc/chinh-hang-malaysia.html" title="Chính hãng Malaysia">Chính hãng Malaysia</a></li>
+                                            <li><a href="danh-muc/chinh-hang-tay-ban-nha.html" title="Chính hãng Tây Ban Nha">Chính hãng Tây Ban Nha</a></li>
+                                            <li><a href="danh-muc/chinh-hang-my.html" title="Chính hãng Mỹ">Chính hãng Mỹ</a></li>
+                                            <li><a href="danh-muc/chinh-hang-nhat.html" title="Chính hãng Nhật Bản">Chính hãng Nhật Bản</a></li>
+                                            <li><a href="danh-muc/chinh-hang-uc.html" title="Chính hãng Úc">Chính hãng Úc</a></li>
+                                            <li><a href="danh-muc/chinh-hang-anh.html" title="Chính hãng Anh">Chính hãng Anh</a></li>
+                                            <li><a href="danh-muc/chinh-hang-han-quoc.html" title="Chính hãng Hàn Quốc">Chính hãng Hàn Quốc</a></li>
+                                            <li><a href="danh-muc/chinh-hang-nga.html" title="Chính hãng Nga">Chính hãng Nga</a></li>
+                                            <li><a href="danh-muc/chinh-hang-phap.html" title="Chính hãng Pháp">Chính hãng Pháp</a></li>
+                                            <li><a href="danh-muc/chinh-hang-an-do.html" title="Chính hãng Ấn Độ">Chính hãng Ấn Độ</a></li>
+                                            <li><a href="danh-muc/chinh-hang-thai-lan.html" title="Chính hãng Thái Lan">Chính hãng Thái Lan</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-orihiro.html" title="Thương hiệu Orihiro">Thương hiệu Orihiro</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-dhc.html" title="Thương hiệu DHC">Thương hiệu DHC</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-transino.html" title="Thương hiệu Transino">Thương hiệu Transino</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-shiseido.html" title="Thương hiệu Shiseido">Thương hiệu Shiseido</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-kirkland.html" title="Thương hiệu KirkLand">Thương hiệu KirkLand</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-kaminomoto.html" title="Thương hiệu Kaminomoto">Thương hiệu Kaminomoto</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-bifina.html" title="Thương hiệu Bifina">Thương hiệu Bifina</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-goodhealth.html" title="Thương hiệu Goodhealth">Thương hiệu Goodhealth</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-scar-heal.html" title="Thương hiệu Scar Heal">Thương hiệu Scar Heal</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-nature-made.html" title="Thương hiệu Nature Made">Thương hiệu Nature Made</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-costar.html" title="Thương hiệu Costar">Thương hiệu Costar</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-healthy-care.html" title="Thương hiệu Healthy Care">Thương hiệu Healthy Care</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-neocell.html" title="Thương hiệu Neocell">Thương hiệu Neocell</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-youtheory.html" title="Thương hiệu Youtheory">Thương hiệu Youtheory</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-innisfree.html" title="Thương hiệu Innisfree">Thương hiệu Innisfree</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-blackmores-uc.html" title="Thương hiệu Blackmores Úc">Thương hiệu Blackmores Úc</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-natrol-biotin.html" title="Thương hiệu Natrol Biotin">Thương hiệu Natrol Biotin</a></li>
+                                            <li><a href="danh-muc/thuong-hieu-khac.html" title="Thương hiệu khác">Thương hiệu khác</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clr"></div>
+                        <div class="widget widget-seller">
+                            <h4 class="seller_title radius">Thương hiệu hàng đầu</h4>
+                            <div class="widget-content">
+                                <ul class="category-ul-rght"></ul>
+                            </div>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="clr"></div>
+            <div class="footer_info">
+                <div id="show-fp"></div>
+                <section>
+                    <div class="page_info">
+                        <div class="pi-first">
+                            <div class="inner">
+                                <h4 class="title">Phương Thức Thanh To&aacute;n</h4>
+                                <div class="clr">
+                                    <ul class="lpay">
+                                        <li>
+                                            <img alt="cash" src="../../images/cash.png" /></li>
+                                        <li>
+                                            <img alt="internet-banking" src="../../images/internet-banking.png" /></li>
+                                    </ul>
+                                    <a href="https://zalo.me/0983667466" target="_blank">
+                                        <img alt="" src="../../fUp/zalo-barcode.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pi-second">
+                            <div class="inner">
+                                <h4 class="title clr">Trung t&acirc;m ph&acirc;n phối</h4>
+                                <p>
+                                    Đ/c: 11/71 B&ugrave;i Đ&igrave;nh T&uacute;y, P.12, Q. B&igrave;nh Thạnh, TpHCM<br />
+                                    Hotline: <a href="tel:0983667466">0983 667 466</a><br />
+                                    Email: info@dongoaichinhhang.com<br />
+                                    Website: <a href="http://dongoaichinhhang.com/"
+                                        rel="nofollow" title="Shop Đồ Ngoại">www.dongoaichinhhang.com </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="pi-third">
+                            <div class="show-map"></div>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="col-div col1">
+                            <div class="inner">
+                                <h4>Thông tin</h4>
+                                <ul>
+                                    <li><a href="http://dongoaichinhhang.com/" title="Trang chủ">Trang chủ</a></li>
+                                    <li><a href="/Frontend/UI/SanPham/My_pham_dac_tri.aspx" title="Sản phẩm">Sản phẩm</a></li>
+                                    <li><a href="http://dongoaichinhhang.com/kho-qua-tang.html" title="Kho quà tặng">Kho quà tặng</a></li>
+                                    <li><a href="/Frontend/UI/BaiViet/KienThucLamDep.aspx" title="Kiến thức làm đẹp">Kiến thức làm đẹp</a></li>
+                                    <li><a href="http://dongoaichinhhang.com/lien-he.html" title="Liên hệ">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-div col2">
+                            <div class="inner">
+                                <h4>Hướng dẫn</h4>
+                                <ul>
+                                    <li><a href="/Frontend/UI/Intro/ChinhSachHangChinhHang.aspx" title="Chính sách Đồ Ngoại Chính Hãng">Chính sách Đồ Ngoại Chính Hãng</a></li>
+                                    <li><a href="/Frontend/UI/Intro/HuongDanMuaHang.aspx" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a></li>
+                                    <li><a href="/Frontend/UI/Intro/GiaoHangVaNhanThanhToan.aspx" title="Giao nhận và thanh toán">Giao nhận và thanh toán</a></li>
+                                    <li><a href="/Frontend/UI/Intro/DoiTraBaoHanh.aspx" title="Đổi trả và bảo hành">Đổi trả và bảo hành</a></li>
+                                    <li><a href="/Frontend/UI/Intro/ChinhSachHoanTien.aspx" title="Chính sách Hoàn Tiền">Chính sách Hoàn Tiền</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-div col3">
+                            <div class="inner">
+                                <h4>Liên kết</h4>
+                                <ul>
+                                    <li><a href="http://dongoaichinhhang.com/dang-nhap.html" title="Đăng nhập">Đăng nhập</a></li>
+                                    <li><a href="http://dongoaichinhhang.com/dang-ky.html" title="Đăng ký">Đăng ký</a></li>
+                                    <li><a href="/Frontend/UI/Intro/GioiThieu.aspx" title="Giới thiệu về  dongoaichinhhang.com  ">Giới thiệu về  dongoaichinhhang.com</a></li>
+                                    <li><a href="http://dongoaichinhhang.com/" title="Tìm kiếm">Tìm kiếm</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-div col4">
+                            <div class="inner">
+                                <h4>Sản phẩm HOT</h4>
+                                <ul>
+                                    <li><a href="https://dongoaichinhhang.com/vien-uong-collagen-youtheory-390-vien-type-1-2-3-my-chong-lao-hoa-da.html" title="Collagen Youtheory 390 Mỹ">Collagen Youtheory 390 Mỹ</a></li>
+                                    <li><a href="https://dongoaichinhhang.com/keo-sam-hamer-candy-cua-my-tang-cuong-sinh-ly-tri-xuat-tinh-som.html" title="Kẹo Sâm Hamer Candy Của Mỹ">Kẹo Sâm Hamer Candy Của Mỹ</a></li>
+                                    <li><a href="https://dongoaichinhhang.com/thuoc-moc-long-may-kaminomoto-nhat-ban.html" title="Thuốc mọc lông Mày Kaminomoto">Thuốc mọc lông Mày Kaminomoto</a></li>
+                                    <li><a href="https://dongoaichinhhang.com/vien-uong-collagen-placenta-5-in-1-trang-da-cua-nhat-270-vien.html" title="Collagen Placenta 5 in 1 trắng da Nhật">Collagen Placenta 5 in 1 trắng da Nhật</a></li>
+                                    <li><a href="https://dongoaichinhhang.com/thuoc-glucosamine-1500mg-orihiro-nhat-ban-900-vien-bo-xuong-khop.html" title="Glucosamine Orihiro 1500mg Nhật Bản">Glucosamine Orihiro 1500mg Nhật Bản</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-div col5 w100">
+                            <div class="inner">
+                                <h4>Li&ecirc;n hệ</h4>
+                                <ul>
+                                    <li>Shop<strong>&nbsp;ĐỒ NGOẠI CH&Iacute;NH H&Atilde;NG</strong></li>
+                                    <li>Đ/c: 11/71 B&ugrave;i Đ&igrave;nh T&uacute;y, P.12, B&igrave;nh Thạnh, HCM</li>
+                                    <li>Hotline: <a href="tel:0983667466">0983 667 466</a></li>
+                                    <li>Email: <a href="mailto:info@dongoaichinhhang.com">info@dongoaichinhhang.com </a></li>
+                                    <li>Website: <a href="http://dongoaichinhhang.com/"><strong>www.dongoaichinhhang.com </strong></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                </section>
+                <div class="footer-tabs">
+                    <section>
+                        <div class="mmb"></div>
+                        <div class="clr"></div>
+                    </section>
+                </div>
+            </div>
+        </footer>
+        <div class="hotlineM"><a href="tel:0983667466">
+            <img src="../../images/hotline.png" alt="hotline" /></a></div>
+        <div id="gb-top-page" style="display: none;">↑</div>
+    </div>
+    <span class="h-geo geo" style="display: none;"><span class="p-latitude latitude">14.058324</span>,<span class="p-longitude longitude">108.277199</span></span>
+    <div id="cart_sidebar_html">
+        <div class="cart-sidebar">
+            <div id="cart-loading hide"></div>
+            <div class="widget-wrapper">
+                <div id="cart-info" class="cart-info">
+                    <span class="title">Giỏ Hàng</span><br />
+                    <br />
+                    <span id="showItemOrder"></span>
+                    <div class="buttons"><a href="/gio-hang.html" class="btn-pay" title="thanh toán">TIẾN HÀNH ĐẶT HÀNG</a><a href="#" onclick="return hideCart()" class="btn-viewcart hidden-lg hidden-md hidden-desktop" title="đóng giỏ hàng">ĐÓNG</a></div>
+                    <div>
+                        <div><b>HỖ TRỢ 24/7</b></div>
+                        <div style="margin: 10px 0;">Hotline: <a href="tel://0983667466" style="color: red; font-size: 18px; font-weight: 700">0983 667 466</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu"></div>
+    <script src="../../js/response.min.js"></script>
+    <script src="../../js/jquery.sticky.js"></script>
+    <script>
+        var isHome = false;
+    </script>
+    <script src="../../js/jquery.fancybox.js"></script>
+    <script src="../../js/news.js"></script>
+    <script src="../../js/script.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var win = $(window);
+            var loaded = 0;
+            var loadedScrollTop = 0;
+            win.scroll(function () {
+                loadedScrollTop = 1;
+                if ($(window).scrollTop() + window.innerHeight + 10 >= $('#show-fp').position().top && loaded == 0) {
+                    $('.show-map').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1333.2537272719658!2d106.69780835760047!3d10.806865894974957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c093fdafb9%3A0xbf42d864713572e1!2zMTEvNzEgQsO5aSDEkMOsbmggVHXDvSwgUGjGsOG7nW5nIDEyLCBCw6xuaCBUaOG6oW5oLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1550808182143" width="600" height="110" frameborder="0" style="border:0;max-width:100%" allowfullscreen></iframe>');
+                    loaded = 1;
+                }
+            });
+        });
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "priceRange": "$$",
+            "image": "https://dongoaichinhhang.com/images/dongoaichinhhang.com192x192.png",
+            "name": "dongoaichinhhang.com",
+            "telephone": "+84 983 667 466",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "11/71 Bùi Đình Túy, P.12, Bình Thạnh",
+                "addressLocality": "Hồ Chí Minh"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Đồ Ngoại Chính Hãng",
+            "url": "https://dongoaichinhhang.com/",
+            "potentialAction": [{
+                "@type": "SearchAction",
+                "target": "/tim-kiem.html?tk={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }]
+        }
+    </script>
+</body>
+
+</html>
