@@ -1,0 +1,5 @@
+C:\Users\OTAX\source\repos\BTL\DTO\bin\Debug\DTO.dll
+C:\Users\OTAX\source\repos\BTL\DTO\bin\Debug\DTO.pdb
+C:\Users\OTAX\source\repos\BTL\DTO\obj\Debug\DTO.dll
+C:\Users\OTAX\source\repos\BTL\DTO\obj\Debug\DTO.pdb
+C:\Users\OTAX\source\repos\BTL\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
