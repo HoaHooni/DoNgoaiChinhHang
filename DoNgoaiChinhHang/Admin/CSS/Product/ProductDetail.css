@@ -1,0 +1,25 @@
+﻿#cke_2_contents{
+    height: 800px !important;
+}
+
+.auto-style1 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+    .auto-style1 tr td {
+        border: 1px solid black;
+    }
+
+.auto-style2 {
+    width: 134px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.auto-style3 {
+    width: 188px;
+}

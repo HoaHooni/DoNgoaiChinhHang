@@ -1,0 +1,61 @@
+﻿.auto-style1 {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-left: 4px solid #FF4D00;
+}
+
+.PostName {
+    display: block;
+    background: rgba(60,64,67,0.302);
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(51, 51, 110);
+    border-left: 4px solid #FF4D00;
+    width: 104%;
+}
+
+.btnFn {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    font-size: 120%;
+    background-color: #f8f9fa;
+    color: black;
+}
+
+    .btnFn:hover {
+        box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+        background: #FF4D00;
+        color: white;
+    }
+
+.searchbar {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+    .searchbar .searchbar-right {
+        text-align: center;
+    }
+
+        .searchbar .searchbar-right .txtSearch {
+            width: 75%;
+            border-radius: 20px;
+            outline: none;
+            /*border: 1px solid black;*/
+            border: none;
+            padding: 7.5px 14px;
+            background: rgba(60,64,67,0.302);
+        }
+
+            .searchbar .searchbar-right .txtSearch:focus {
+                background: #fff;
+                box-shadow: 0 1px 1px 0 rgba(65, 69, 73, 0.3) 0 1px 3px 1px rgba(65,69,73,0.15);
+            }

@@ -1,0 +1,35 @@
+﻿.row {
+    width: 98%;
+    min-height: 100px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    border-left: 4px solid #FF4D00;
+}
+
+.row-title {
+    background: #FF4D00;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.row-content{
+    padding: 5px;
+}
+
+.card {
+    /*border: 1px solid #ff4d00;*/
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    padding: 4px;
+    margin: 4px;
+    border-left: 4px solid #FF4D00;
+}
+
+.card.table{
+    width: 98%;
+    height: 150px;
+}
