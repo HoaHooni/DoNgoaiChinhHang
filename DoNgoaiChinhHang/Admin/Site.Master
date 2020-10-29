@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DoNgoaiChinhHang.Admin.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Đồ Ngoại Chính Hãng</title>
+    <link href="CSS/Site.css" rel="stylesheet" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="/Plugin/jquery.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="topbar">
+            <div class="topbar-logo">
+                <img src="../../Img/dongoaichinhhang.png" />  
+                <img class="img-admin" width="45px" src="../../Img/admin.png" />
+                <div style="display: inline-block; height: 45px;vertical-align: middle;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+                </div>
+            </div>
+            <div class="topbar-right">
+                <div style="display: inline-block; vertical-align: middle; height: 45px">
+
+                Tài khoản: 
+                <asp:Label ID="txtAccName" runat="server" CssClass="txtAccName" Text="ADMIN"></asp:Label> - 
+                <asp:Button ID="btnLogout" CssClass="logout" runat="server" Text="ĐĂNG XUẤT" OnClick="btnLogout_Click" />
+                </div>
+                <img height="45px" src="../../Img/administrator.png" />
+            </div>
+        </div>
+        <div class="ContentForm">
+            <div class="menu-left-container">
+                <ul class="menu-left">
+                    <li class="liThongKe"><a href="/Admin/UI/ThongKe/ThongKe.aspx">THỐNG KÊ</a></li>
+                    <li class="liSanPham"><a href="/Admin/UI/Product/SanPham.aspx">SẢN PHẨM</a></li>
+                    <li class="liNSXvaXX"><a href="/Admin/UI/ManuAndOrigin/ManufacturerAndOrigin.aspx">NSX & XUẤT XỨ</a></li>
+                    <li class="liBaiViet"><a href="/Admin/UI/Post/Post.aspx">BÀI VIẾT</a></li>
+                    <li class="liDonHang"><a href="/Admin/UI/Order/DonHang.aspx">ĐƠN HÀNG</a></li>
+                    <li class="liQLTV"><a href="/Admin/UI/Member/qlthanhvien.aspx">QUẢN LÝ THÀNH VIÊN</a></li>
+                    <li class="liLienHe"><a href="/Admin/UI/Contact/Contact.aspx">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+            <div class="content-container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function SetSelectMenuItem() {
+                var siteName = location.pathname.substring(location.pathname.lastIndexOf('/') + 1, location.pathname.indexOf('.aspx')),
+                    arrThongKe = ["ThongKe"],
+                    arrSanPham = ["SanPham", "ProductDetail", "ProductGift", "Product", "AddProduct"],
+                    arrBaiViet = ["Post", "PostDetail", "AddPost"],
+                    arrDonHang = ["DonHang"],
+                    arrQLTV = ["qlthanhvien"],
+                    arrNSXvaXX = ["ManufacturerAndOrigin"]
+                    arrLienHe = ["Contact"];
+
+                if (arrSanPham.indexOf(siteName) != -1) {
+                    $('li.liSanPham').css('border-left', '5px solid #FF4D00');
+                    $('li.liSanPham a').css('color', 'black');
+                }
+                if (arrThongKe.indexOf(siteName) != -1) {
+                    $('li.liThongKe').css('border-left', '5px solid #FF4D00');
+                    $('li.liThongKe a').css('color', 'black');
+                }
+                if (arrNSXvaXX.indexOf(siteName) != -1) {
+                    $('li.liNSXvaXX').css('border-left', '5px solid #FF4D00');
+                    $('li.liNSXvaXX a').css('color', 'black');
+                }
+                if (arrBaiViet.indexOf(siteName) != -1) {
+                    $('li.liBaiViet').css('border-left', '5px solid #FF4D00');
+                    $('li.liBaiViet a').css('color', 'black');
+                }
+                if (arrDonHang.indexOf(siteName) != -1) {
+                    $('li.liDonHang').css('border-left', '5px solid #FF4D00');
+                    $('li.liDonHang a').css('color', 'black');
+                }
+                if (arrQLTV.indexOf(siteName) != -1) {
+                    $('li.liQLTV').css('border-left', '5px solid #FF4D00');
+                    $('li.liQLTV a').css('color', 'black');
+                }
+                if (arrLienHe.indexOf(siteName) != -1) {
+                    $('li.liLienHe').css('border-left', '5px solid #FF4D00');
+                    $('li.liLienHe a').css('color', 'black');
+                }
+            }
+            $(() => {
+                SetSelectMenuItem();
+            });
+        </script>
+    </form>
+</body>
+</html>
